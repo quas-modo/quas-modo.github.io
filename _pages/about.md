@@ -28,7 +28,7 @@ latest_posts:
 ---
 
 
-I am a first-year PhD student at Fudan University, jointly advised by Prof. [BoWen Zhou](https://c3i.ee.tsinghua.edu.cn/en/author/bowen-zhou/) and Prof. [Xin Peng](https://cspengxin.github.io/). In parallel with my PhD, I work as an intern at the Embodied AI Center, [Shanghai AI Laboratory](https://www.shlab.org.cn/),  supervised by [Jiangmiao Pang](https://oceanpang.github.io/) and [Yilun Chen](https://yilunchen.com/about/). Prior to my PhD, I earned my B.Eng degree at Nanjing University with honors.
+I am a first-year PhD student at Fudan University, jointly advised by Prof. [Bowen Zhou](https://c3i.ee.tsinghua.edu.cn/en/author/bowen-zhou/) and Prof. [Xin Peng](https://cspengxin.github.io/). In parallel with my PhD, I work as an intern at the Embodied AI Center, [Shanghai AI Laboratory](https://www.shlab.org.cn/),  supervised by [Jiangmiao Pang](https://oceanpang.github.io/) and [Yilun Chen](https://yilunchen.com/about/). Prior to my PhD, I earned my B.Eng degree at Nanjing University with honors.
 
 I am actively exploring robotic manipulation and the integration of vision-language models (VLMs) with robotics. Always happy to chat, collaborate, or just make new friends—drop me a message anytime!
 
