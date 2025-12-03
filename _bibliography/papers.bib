@@ -1,6 +1,54 @@
 ---
 ---
 
+@misc{liang2025mmactlearnmultimodalparallel,
+      abbr={arXiv 2025},
+      title={MM-ACT: Learn from Multimodal Parallel Generation to Act}, 
+      author={Haotian Liang* and Xinyi Chen* and Bin Wang* and Mingkang Chen and Yitian Liu and Yuhao Zhang and Zanxin Chen and Tianshuo Yang and Yilun Chen and Jiangmiao Pang and Dong Liu and Xiaokang Yang and Yao Mu and Wenqi Shao and Ping Luo},
+      year={2025},
+      eprint={2512.00975},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2512.00975}, 
+      abstract={A generalist robotic policy needs both semantic understanding for task planning and the ability to interact with the environment through predictive capabilities. To tackle this, we present MM-ACT, a unified Vision-Language-Action (VLA) model that integrates text, image, and action in shared token space and performs generation across all three modalities. MM-ACT adopts a re-mask parallel decoding strategy for text and image generation, and employs a one-step parallel decoding strategy for action generation to improve efficiency. We introduce Context-Shared Multimodal Learning, a unified training paradigm that supervises generation in all three modalities from a shared context, enhancing action generation through cross-modal learning. Experiments were conducted on the LIBERO simulation and Franka real-robot setups as well as RoboTwin2.0 to assess in-domain and out-of-domain performances respectively. Our approach achieves a success rate of 96.3% on LIBERO, 72.0% across three tasks of real Franka, and 52.38% across eight bimanual tasks of RoboTwin2.0 with an additional gain of 9.25% from cross-modal learning. },
+      preview={mmact.png},
+      pdf={https://www.arxiv.org/pdf/2512.00975},
+      code={https://github.com/HHYHRHY/MM-ACT},
+      selected={true}
+}
+
+@misc{li2025cronusvlaefficientrobustmanipulation,
+      abbr={AAAI 2026 (Oral)},
+      title={CronusVLA: Towards Efficient and Robust Manipulation via Multi-Frame Vision-Language-Action Modeling}, 
+      author={Hao Li* and Shuai Yang* and Yilun Chen and Xinyi Chen and Xiaoda Yang and Yang Tian and Hanqing Wang and Tai Wang and Dahua Lin and Feng Zhao and Jiangmiao Pang},
+      year={2025},
+      eprint={2506.19816},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2506.19816}, 
+      abstract={Recent vision-language-action (VLA) models built on pretrained vision-language models (VLMs) have demonstrated strong performance in robotic manipulation. However, these models remain constrained by the single-frame image paradigm and fail to fully leverage the temporal information offered by multi-frame histories, as directly feeding multiple frames into VLM backbones incurs substantial computational overhead and inference latency. We propose CronusVLA, a unified framework that extends single-frame VLA models to the multi-frame paradigm. CronusVLA follows a two-stage process: (1) Single-frame pretraining on large-scale embodied datasets with autoregressive prediction of action tokens, establishing an effective embodied vision-language foundation; (2) Multi-frame post-training, which adapts the prediction of the vision-language backbone from discrete tokens to learnable features, and aggregates historical information via feature chunking. CronusVLA effectively addresses the existing challenges of multi-frame modeling while enhancing performance and observational robustness. To evaluate the robustness under temporal and spatial disturbances, we introduce SimplerEnv-OR, a novel benchmark featuring 24 types of observational disturbances and 120 severity levels. Experiments across three embodiments in simulated and real-world environments demonstrate that CronusVLA achieves leading performance and superior robustness, with a 70.9% success rate on SimplerEnv, a 26.8% improvement over OpenVLA on LIBERO, and the highest robustness score on SimplerEnv-OR. These results highlight the potential of efficient multi-frame adaptation in VLA models for more powerful and robust real-world deployment.},
+      html={https://lihaohn.github.io/CronusVLA.github.io/},
+      pdf={https://arxiv.org/pdf/2506.19816},
+      code={https://github.com/InternRobotics/CronusVLA},
+      preview={cronusvla.png},
+      selected={true}
+}
+
+@misc{chen2025internvlam1spatiallyguidedvisionlanguageaction,
+      abbr={arXiv 2025},
+      title={InternVLA-M1: A Spatially Guided Vision-Language-Action Framework for Generalist Robot Policy}, 
+      author={Xinyi Chen and Yilun Chen and Yanwei Fu and Ning Gao and Jiaya Jia and Weiyang Jin and Hao Li and Yao Mu and Jiangmiao Pang and Yu Qiao and Yang Tian and Bin Wang and Bolun Wang and Fangjing Wang and Hanqing Wang and Tai Wang and Ziqin Wang and Xueyuan Wei and Chao Wu and Shuai Yang and Jinhui Ye and Junqiu Yu and Jia Zeng and Jingjing Zhang and Jinyu Zhang and Shi Zhang and Feng Zheng and Bowen Zhou and Yangkun Zhu},
+      year={2025},
+      eprint={2510.13778},
+      archivePrefix={arXiv},
+      primaryClass={cs.RO},
+      url={https://arxiv.org/abs/2510.13778}, 
+      abstract={We introduce InternVLA-M1, a unified framework for spatial grounding and robot control that advances instruction-following robots toward scalable, general-purpose intelligence. Its core idea is spatially guided vision-language-action training, where spatial grounding serves as the critical link between instructions and robot actions. InternVLA-M1 employs a two-stage pipeline: (i) spatial grounding pre-training on over 2.3M spatial reasoning data to determine ``where to act'' by aligning instructions with visual, embodiment-agnostic positions, and (ii) spatially guided action post-training to decide ``how to act'' by generating embodiment-aware actions through plug-and-play spatial prompting. This spatially guided training recipe yields consistent gains: InternVLA-M1 outperforms its variant without spatial guidance by +14.6% on SimplerEnv Google Robot, +17% on WidowX, and +4.3% on LIBERO Franka, while demonstrating stronger spatial reasoning capability in box, point, and trace prediction. To further scale instruction following, we built a simulation engine to collect 244K generalizable pick-and-place episodes, enabling a 6.2% average improvement across 200 tasks and 3K+ objects. In real-world clustered pick-and-place, InternVLA-M1 improved by 7.3%, and with synthetic co-training, achieved +20.6% on unseen objects and novel configurations. Moreover, in long-horizon reasoning-intensive scenarios, it surpassed existing works by over 10%. These results highlight spatially guided training as a unifying principle for scalable and resilient generalist robots.},
+      pdf={https://arxiv.org/pdf/2510.13778},
+      code={https://github.com/InternRobotics/InternVLA-M1},
+      preview={internvlam1.png},
+}
+
 @InProceedings{Huang_2025_CVPR,
     abbr={CVPR 2025},
     author    = {Huang*, Haifeng and Chen*, Xinyi and Chen, Yilun and Li, Hao and Han, Xiaoshen and Wang, Zehan and Wang, Tai and Pang, Jiangmiao and Zhao, Zhou},
