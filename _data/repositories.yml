@@ -4,7 +4,8 @@ github_users:
 repo_description_lines_max: 2
 
 github_repos:
-  - OpenRobotLab/GenManip
+  - HHYHRHY/MM-ACT
+  - InternRobotics/GenManip
   - ZzZZCHS/RoboGround
   - CompilerBagel/CompilerBagel
   - zhaoyuuu/violet-design
